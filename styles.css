@@ -45,6 +45,9 @@ h2 { color: #3d4246; font-size: 25px; line-height: 1.4; font-weight: 700; margin
 .bio { margin: 0 0 14px; line-height: 1.85; }
 .bio strong { font-weight: 700; }
 .research-interests { margin: 0; line-height: 1.85; }
+.scholar-citations { margin: 12px 0 0; line-height: 1; }
+.scholar-citations a { display: inline-block; }
+.scholar-citations img { display: block; height: 20px; max-width: 100%; }
 .publications { margin-top: 32px; }
 .section-heading { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px 16px; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
 #publications-title::before { content: '📝 '; font-size: 21px; }
